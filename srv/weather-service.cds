@@ -11,4 +11,5 @@ service WatherService {
     entity Cities        as projection on wa_tutorial.Cities;
     entity Temperatures  as projection on wa_tutorial.Temperatures;
     entity Sources       as projection on wa_tutorial.Sources;
+    
 }

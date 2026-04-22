@@ -1,0 +1,8 @@
+GET http://localhost:4004/odata/v4/wather/Voivodeships
+
+POST http://localhost:4004/odata/v4/wather/Voivodeships
+Content-Type: application/json
+{
+    "name": "Raciborz",
+    "postalCode": "47-400"
+}
